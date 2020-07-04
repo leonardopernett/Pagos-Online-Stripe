@@ -5,12 +5,13 @@
       <div class="card-body">
         <h2>$ 30</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam temporibus ut officia vel molestias nulla.</p>
+
      </div>
       <div class="card-footer">
         <form action="/pay" method="POST">
           <script src="https://checkout.stripe.com/checkout.js"
             class="stripe-button"
-            data-key="pk_test_kvZRSrXGYRq7LqAEcCPkKal700PWz1vLeC"
+            data-key="{{key}}"
             data-name="Product Design"
             data-description="for Development"
             data-amount="3000"
